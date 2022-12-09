@@ -1,0 +1,1 @@
+wev: gunicorn server:app
