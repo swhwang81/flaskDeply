@@ -21,4 +21,5 @@ def home():
     return render_template('after.html', data=pred)
 
 if __name__ == "__main__":
-    app.run(host="192.168.0.17", port=808, debug=True)
+    #app.run(host="192.168.0.17", port=808, debug=True)
+    app.run(port=8080, debug=False)
